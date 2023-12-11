@@ -1,4 +1,4 @@
-# Green Border Plugin
+# Staged Site Border Wordpress Plugin
 
 The Staged Site Border Plugin adds a customizable solid color border around the browser viewport on your WordPress site. You can easily customize the color and toggle the border on or off using the plugin settings.
 
