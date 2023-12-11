@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Staged Site Border
-Description: Adds a customizable solid color border around the browser viewport and allows inserting an editable message.
+Description: Adds a customizable solid color border around the browser viewport and allows inserting an editable message. This helps users differentiate your staged site with the live one.
 Version: 1.1
-Author: Your Name
+Author: Thomas Wurwal
 */
 
 // Add a menu item in the admin panel
@@ -110,15 +110,16 @@ function add_staged_site_border()
                     $('body').prepend('<div id="border-message"><?php echo esc_js($border_message); ?></div>');
                     $('#border-message').css({
                         'position': 'fixed',
-                        'top': '0',
+                        'bottom': '0',
                         'left': '0',
                         'width': '100%',
                         'background': '<?php echo esc_js($border_color); ?>',
                         'color': '#ffffff',
                         'font-size': '16px',
-                        'padding': '10px',
+                        'padding': '5px',
                         'box-sizing': 'border-box',
-                        'z-index': '1000000'
+                        'z-index': '1000000',
+                        'text-align' : 'center'
                     });
                 }
             });
