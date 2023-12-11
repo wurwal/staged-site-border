@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Staged site border
+Plugin Name: Staged Site Border
 Description: Adds a customizable solid color border around the browser viewport.
 Version: 1.2
 Author: Thomas Wurwal
