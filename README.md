@@ -6,6 +6,10 @@
 
 Staged Site Border adds a customizable solid color border around the browser viewport on your WordPress site and allows you to insert an editable message. This helps users differentiate the staged site with the live one clearly.
 
+## Author
+
+Thomas Wurwal
+
 ## Installation
 
 1. Download the plugin ZIP file from the [GitHub repository](https://github.com/wurwal/staged-site-border-plugin).
